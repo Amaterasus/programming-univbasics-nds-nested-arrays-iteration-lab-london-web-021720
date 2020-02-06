@@ -10,8 +10,13 @@ def join_ingredients(src)
   index = 0
   
   while index < src.length do
+<<<<<<< HEAD
     output.push("I love #{src[index][0]} and #{src[index][1]} on my pizza")
     index += 1
+=======
+    output << "I love #{src[index][0]} and #{src[index][1]} on my pizza"
+    index++
+>>>>>>> 6eed5758e97f8222da7a06800d0c572bbd4cafee
   end
   
   return output
